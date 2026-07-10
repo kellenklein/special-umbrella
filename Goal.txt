@@ -1,0 +1,11 @@
+LOGIC
+1. Implement a Logical Unit to comput opcodes: NOT, AND, OR, LRS, LLS, ASR, XOR
+2. Implement a Arthimetic Unit to compute opcodes: NEG, ADD, SUB, GEQ, LE, EQ, INC, DEC
+3. Combine to make an ALU which outputs the result, negative flag, zero flag, overflow flag, carry flag
+
+VERIF
+1. Once I get my SV comm working consistently we will build the cpp counterpart to it in order to generate 
+    random sim inputs and verify the outputs
+2. attach it to this repo using subrepo 
+2. verify step 1, 2 at unit level
+3. verify element whole at ALU
